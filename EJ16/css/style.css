@@ -1,0 +1,41 @@
+body {
+    color: #6F0C21;
+}
+
+table {
+    border: 5px;
+    width: 100%;
+    border-style: outset;
+    background: url(../images/paws.png) repeat-x;
+}
+
+th {
+    font-size: 18;
+    width: 100%;
+    border: 2px inset black;
+    background-color: #609A6A;
+    font-weight: normal;
+}
+
+td {
+    border: 1px inset black;
+    padding: 1px;
+    width: 25%;
+    text-align: center;
+    font-weight: normal;
+}
+
+td.subhead {
+    background-color: #FFCD9E;
+    padding: 1px;
+    text-align: center;
+    font-weight: normal;
+}
+
+
+td.subsubhead {
+    background-color: #FFFFA3;
+    padding: 1px;
+    text-align: center;
+    font-weight: normal;
+}
