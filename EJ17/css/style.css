@@ -1,45 +1,131 @@
-  dashboard
-    dashboard.component.html
-    dashboard.component.scss
-    dashboard.component.spec.ts
-    dashboard.component.ts
+body {
+    background: url(../images/ac.jpg);
+}
 
-  TA28
+div {
+    text-align: center;
+}
 
-  EX02
+div.grid-container {
+    display: grid;
+    padding: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
 
-  TA29
-    EJ11/deportes
-      css
-      donde.html
-      donde2.html
-      instalaciones.html
-    EJ13
-    EJ14
-      css
-        style.css
-      images
-      index.html
-    EJ15
-      css
-        style.css
-      index.html
-    EJ16
-      css
-        style.css
-          Functions
-            body
-            table
-            th
-            td
-            td.subhead
-            td.subsubhead
-      images
-      index.html
-    EJ17
-      css
-        style.css
-      images
-      index.html
-    LICENSE
-    README.md
+div.square {
+    border: solid 2px;
+    background: url(../images/back_mantel.jpg);
+    width: 150px;
+    height: 150px;
+}
+
+div.square-B {
+    display: flex;
+    align-items: center;
+    border: solid 2px;
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+}
+
+div.square-B-bg {
+    background: url(../images/back_mantel.jpg);
+    width: 120px;
+    height: 120px;
+}
+
+div.square-C {
+    border: solid 2px;
+    background: url(../images/back_mantel.jpg);
+    width: 150px;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+div.square-D {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    border: solid 2px;
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+}
+
+div.square-D-bg {
+    background: url(../images/back_mantel.jpg);
+    width: 80%;
+    height: 80%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+div.square-E {
+    border: solid 2px;
+    background: url(../images/dh.jpg);
+    width: 150px;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+div.square-F {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    border: solid 2px;
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+}
+
+div.square-F-bg {
+    background: url(../images/dh.jpg);
+    width: 80%;
+    height: 80%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+div.square-G {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    border: solid 2px;
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+}
+
+div.square-G-bg {
+    background: url(../images/dh_2.jpg);
+    width: 100%;
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+div.square-H {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    border: solid 2px;
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+}
+
+div.square-H-bg {
+    background: url(../images/dh_3.jpg);
+    width: 50%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
