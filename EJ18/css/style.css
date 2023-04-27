@@ -1,0 +1,28 @@
+div.container1 {
+    background: url(../images/f03.png) repeat-x #9DD1FC;
+    width: 220px;
+    height: 110px;
+    border: 5px blue solid;
+}
+
+div.ground {
+    background: url(../images/f01.png) repeat-x bottom;
+    width: 100%;
+    height: 100%;
+
+}
+
+div.mario {
+    background: url(../images/f02.png) bottom left;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+div.container2 {
+    background: url(../images/f03.png) repeat-x #9DD1FC;
+    width: 400px;
+    height: 300px;
+    border: 5px red solid;
+    margin: 20px;
+}
