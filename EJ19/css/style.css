@@ -1,0 +1,15 @@
+table {
+    border: solid black 1px;
+}
+
+td.spain {
+    font-weight: bold;
+}
+
+td {
+    border: solid black 1px;
+}
+
+th {
+    border: solid black 1px;
+}
